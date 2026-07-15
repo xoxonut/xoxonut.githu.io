@@ -1,12 +1,7 @@
-// Keep the starter site dependency-free and GitHub Pages friendly.
-document.getElementById("year").textContent = new Date().getFullYear();
+const year = document.getElementById("year");
 
-document.querySelectorAll('a[href^="#"]').forEach((link) => {
-  link.addEventListener("click", (event) => {
-    const target = document.querySelector(link.getAttribute("href"));
-    if (!target) return;
-    event.preventDefault();
-    target.scrollIntoView({ behavior: "smooth", block: "start" });
-    history.replaceState(null, "", link.getAttribute("href"));
-  });
-});
+if (year) {
+  const currentYear = new Date().getFullYear();
+  year.textContent = currentYear;
+  year.dateTime = String(currentYear);
+}
