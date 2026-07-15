@@ -8,46 +8,34 @@
     <title>Frank Hui — CV</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="cv-sheet" id="top">
       <header class="cv-header">
-        <h1 class="cv-name">Frank<br />Hui</h1>
-        <div class="cv-intro">
-          <p class="cv-lead">Aspiring Software Engineer and Cloud/AI specialist, currently completing a Master's degree at National Yang Ming Chiao Tung University (NYCU).</p>
-          <p>Solid foundation in Python programming, C/C++, networking protocols (Wi-Fi EasyMesh), and cloud computing. Hands-on experience developing network test plans during a software engineering internship at WNC. Targeting Junior Software Engineer, Cloud/AI Engineer, and IT specialist roles.</p>
-        </div>
+        <h1 class="cv-name">Frank Hui</h1>
+        <div class="header-gradient" aria-hidden="true"></div>
+        <address class="contact-list" aria-label="Contact information">
+          <a href="mailto:frank.ankch17@gmail.com">frank.ankch17@gmail.com</a>
+          <span class="contact-separator" aria-hidden="true">|</span>
+          <a href="https://www.linkedin.com/in/frank-hui" target="_blank" rel="noopener noreferrer">linkedin.com/in/frank-hui</a>
+          <span class="contact-separator" aria-hidden="true">|</span>
+          <a href="https://github.com/xoxonut" target="_blank" rel="noopener noreferrer">github.com/xoxonut</a>
+          <span class="contact-separator" aria-hidden="true">|</span>
+          <span>Taipei / New Taipei / Hsinchu, Taiwan</span>
+        </address>
       </header>
 
-      <nav class="site-nav" aria-label="CV sections">
-        <a href="#experience">Experience</a>
-        <a href="#technology">Technology</a>
-        <a href="#open-source">Open source</a>
-        <a href="#education">Education</a>
-      </nav>
-
-      <address class="contact-list" aria-label="Contact information">
-        <a href="mailto:frank.ankch17@gmail.com">
-          <span class="contact-label">Email</span>
-          <span>frank.ankch17@gmail.com</span>
-        </a>
-        <a href="https://www.linkedin.com/in/frank-hui" target="_blank" rel="noopener noreferrer">
-          <span class="contact-label">LinkedIn</span>
-          <span>linkedin.com/in/frank-hui</span>
-        </a>
-        <a href="https://github.com/xoxonut" target="_blank" rel="noopener noreferrer">
-          <span class="contact-label">GitHub</span>
-          <span>github.com/xoxonut</span>
-        </a>
-        <span class="contact-item">
-          <span class="contact-label">Location</span>
-          <span>Taipei / New Taipei / Hsinchu, Taiwan</span>
-        </span>
-      </address>
-
       <main>
+        <section class="cv-section summary-section" id="summary" aria-labelledby="summary-title">
+          <h2 id="summary-title">Summary</h2>
+          <div class="summary-text">
+            <p>Aspiring Software Engineer and Cloud/AI specialist, currently completing a Master's degree at National Yang Ming Chiao Tung University (NYCU).</p>
+            <p>Solid foundation in Python programming, C/C++, networking protocols (Wi-Fi EasyMesh), and cloud computing. Hands-on experience developing network test plans during a software engineering internship at WNC. Targeting Junior Software Engineer, Cloud/AI Engineer, and IT specialist roles.</p>
+          </div>
+        </section>
+
         <section class="cv-section" id="experience" aria-labelledby="experience-title">
           <h2 id="experience-title">Experience</h2>
           <div class="section-grid experience-grid">
@@ -65,7 +53,7 @@
         </section>
 
         <section class="cv-section" id="technology" aria-labelledby="technology-title">
-          <h2 id="technology-title">Technology</h2>
+          <h2 id="technology-title">Core competencies</h2>
           <dl class="technology-grid">
             <dt>Python</dt>
             <dd>Proficient</dd>
@@ -111,11 +99,6 @@
         </section>
       </main>
 
-      <footer class="cv-footer">
-        <span>Frank Hui — CV</span>
-        <a href="#top">Back to top ↑</a>
-        <span>Updated <time id="year" datetime="2026">2026</time></span>
-      </footer>
     </div>
 
     <script src="script.js"></script>
