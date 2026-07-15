@@ -28,7 +28,7 @@ body {
   color: var(--ink);
   background: #fff;
   font-family: var(--sans);
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.5;
   font-variant-ligatures: none;
   font-feature-settings: "liga" 0, "clig" 0, "dlig" 0;
@@ -63,7 +63,7 @@ a:focus-visible {
 .cv-name {
   color: var(--ink);
   font-family: var(--display);
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 700;
   letter-spacing: -0.02em;
   line-height: 1.1;
@@ -83,7 +83,7 @@ a:focus-visible {
   align-items: baseline;
   gap: 4px 10px;
   color: #555;
-  font-size: 10.5px;
+  font-size: 11.5px;
   font-style: normal;
   line-height: 1.4;
 }
@@ -102,7 +102,7 @@ a:focus-visible {
   border-bottom: 1.5px solid var(--line);
   color: var(--teal);
   font-family: var(--display);
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.06em;
   line-height: 1.2;
@@ -111,8 +111,8 @@ a:focus-visible {
 
 .summary-text {
   color: #2f2f2f;
-  font-size: 11px;
-  line-height: 1.7;
+  font-size: 12px;
+  line-height: 1.65;
 }
 
 .summary-text p + p {
@@ -130,7 +130,7 @@ a:focus-visible {
   grid-column: 2;
   grid-row: 1;
   color: var(--muted);
-  font-size: 10px;
+  font-size: 10.5px;
   line-height: 1.5;
   text-align: right;
 }
@@ -148,7 +148,7 @@ a:focus-visible {
 .section-content h3 {
   margin-bottom: 4px;
   color: var(--text);
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   line-height: 1.35;
 }
@@ -157,7 +157,7 @@ a:focus-visible {
   margin-bottom: 6px;
   color: var(--purple);
   font-family: var(--display);
-  font-size: 12.5px;
+  font-size: 13.5px;
   font-weight: 600;
   line-height: 1.35;
 }
@@ -173,8 +173,8 @@ a:focus-visible {
 
 .section-content li {
   color: var(--text);
-  font-size: 10.5px;
-  line-height: 1.6;
+  font-size: 11.5px;
+  line-height: 1.55;
   margin-bottom: 4px;
 }
 
@@ -195,14 +195,14 @@ a:focus-visible {
 
 .technology-grid dt {
   color: var(--text);
-  font-size: 10.5px;
+  font-size: 11.5px;
   font-weight: 600;
 }
 
 .technology-grid dd {
   margin: 0;
   color: #444;
-  font-size: 10.5px;
+  font-size: 11.5px;
 }
 
 code {
@@ -218,7 +218,7 @@ code {
 .content-link {
   color: var(--purple);
   font-family: var(--display);
-  font-size: 11.5px;
+  font-size: 12.5px;
   font-weight: 600;
 }
 
